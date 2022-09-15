@@ -4,8 +4,7 @@ __author__ = "730470511"
 
 """Establishing Secret Word and Asking User for a Guess"""
 
-
-secret = "python"
+secret = "snacks"
 guess: str = input("What is your 6-letter guess? ")
 while len(guess) != len(secret):
     guess = input("That was not 6 letters! Try again: ") 
